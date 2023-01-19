@@ -25,7 +25,7 @@ public interface ImplementedInventory extends SidedInventory {
      *
      * @return the item list
      */
-
+    DefaultedList<ItemStack> getItems();
 
     // Creation
 
