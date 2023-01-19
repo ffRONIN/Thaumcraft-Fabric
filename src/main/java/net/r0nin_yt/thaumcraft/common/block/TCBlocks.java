@@ -16,13 +16,13 @@ public class TCBlocks {
 
 
 
-    public static final Block ALCHEMY_FURNACE = registerBlock("alchemy_furnace",
+    public static final Block ALCHEMY_FURNACE = create("alchemy_furnace",
             new AlchemyFurnaceBlock(FabricBlockSettings.of(Material.STONE).strength(7.0f).requiresTool()), ModItemGroup.THAUMCRAFT);
 
 
 
 
-    private static Block registerBlock(String name, Block block, ItemGroup group) {
+    private static Block create(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(Thaumcraft.MOD_ID, name), block);
     }

@@ -1,6 +1,5 @@
 package net.r0nin_yt.thaumcraft.common.item.inventory;
 
-
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventories;
 import net.minecraft.inventory.Inventory;
@@ -13,7 +12,11 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-
+/**
+ * A simple {@code SidedInventory} implementation with only default methods + an item list getter.
+ *
+ *
+ */
 @FunctionalInterface
 public interface ImplementedInventory extends SidedInventory {
     /**
@@ -22,7 +25,7 @@ public interface ImplementedInventory extends SidedInventory {
      *
      * @return the item list
      */
-    DefaultedList<ItemStack> getItems();
+
 
     // Creation
 

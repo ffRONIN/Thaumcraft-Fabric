@@ -27,6 +27,7 @@ public class Thaumcraft implements ModInitializer {
         TCBlocks.registerModBlocks();
         TCBlockEntities.registerAllBlockEntities();
         TCScreenHandlers.registerAllScreenHandlers();
+
     }
 }
 

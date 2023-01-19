@@ -1,5 +1,6 @@
 package net.r0nin_yt.thaumcraft.common.screen;
 
+
 import net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry;
 
 import net.minecraft.screen.ScreenHandlerType;
@@ -11,7 +12,7 @@ public class TCScreenHandlers {
 
     public static void registerAllScreenHandlers() {
         ALCHEMY_FURNACE_SCREEN_HANDLER =
-                ScreenHandlerRegistry.registerSimple(new Identifier(Thaumcraft.MOD_ID, "alchemy_furnace"),
-                        AlchemyFurnaceScreenHandler::new);
+        ScreenHandlerRegistry.registerSimple(new Identifier(Thaumcraft.MOD_ID, "alchemy_furnace"),
+                AlchemyFurnaceScreenHandler::new);
     }
 }

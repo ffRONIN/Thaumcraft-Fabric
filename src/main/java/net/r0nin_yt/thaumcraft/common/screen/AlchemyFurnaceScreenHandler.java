@@ -1,6 +1,5 @@
 package net.r0nin_yt.thaumcraft.common.screen;
 
-
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventory;
@@ -14,22 +13,25 @@ public class AlchemyFurnaceScreenHandler extends ScreenHandler {
     private final Inventory inventory;
 
     public AlchemyFurnaceScreenHandler(int syncId, PlayerInventory playerInventory) {
-        this(syncId, playerInventory, new SimpleInventory(4));
+        this(syncId, playerInventory, new SimpleInventory(1));
     }
 
     public AlchemyFurnaceScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
-        super(TCScreenHandlers.ALCHEMY_FURNACE_SCREEN_HANDLER, syncId);
-        checkSize(inventory, 4);
+        super(TCScreenHandlers.ALCHEMY_FURNACE_SCREEN_HANDLER   , syncId);
+        checkSize(inventory, 1);
         this.inventory = inventory;
         inventory.onOpen(playerInventory.player);
 
-        //
-        this.addSlot(new TCFuelSlot(inventory, 0, 18, 50));
-        this.addSlot(new Slot(inventory, 1, 66, 16));
+
+        this.addSlot(new TCFuelSlot(inventory, 0,66,50));
+
+
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
     }
+
+
 
     @Override
     public boolean canUse(PlayerEntity player) {
