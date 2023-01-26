@@ -18,7 +18,7 @@ public class AlchemyFurnaceScreenHandler extends ScreenHandler {
 
     public AlchemyFurnaceScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory) {
         super(TCScreenHandlers.ALCHEMY_FURNACE_SCREEN_HANDLER   , syncId);
-        checkSize(inventory, 1);
+        checkSize(inventory, 2);
         this.inventory = inventory;
         inventory.onOpen(playerInventory.player);
 

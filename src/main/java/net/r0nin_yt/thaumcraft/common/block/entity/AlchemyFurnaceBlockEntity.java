@@ -64,7 +64,7 @@ public class AlchemyFurnaceBlockEntity extends BlockEntity implements NamedScree
     }
 
     private static void craftItem(AlchemyFurnaceBlockEntity entity) {
-        entity.removeStack(0, 1);
+        entity.removeStack(0, 2);
 
     }
 
@@ -76,7 +76,7 @@ public class AlchemyFurnaceBlockEntity extends BlockEntity implements NamedScree
     }
 
     private static boolean hasNotReachedStackLimit(AlchemyFurnaceBlockEntity entity) {
-        return entity.getStack(3).getCount() < entity.getStack(3).getMaxCount();
+        return entity.getStack(3).getCount() < entity.getStack(2).getMaxCount();
     }
 }
 

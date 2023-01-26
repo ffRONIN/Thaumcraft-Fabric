@@ -11,13 +11,17 @@ import net.r0nin_yt.thaumcraft.common.item.TCItems;
 import java.util.function.Supplier;
 
 public enum TCArmorMaterials implements ArmorMaterial {
-    THAUMIUM("thaumium", 15, new int[]{2, 5, 6, 2}, 28,
+    THAUMIUM("thaumium", 15, new int[]{2, 5, 6, 2}, 9,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(TCItems.INFUSED_STABILISED_THAUMIUM_INGOT)),
-    CRIMSON_ROBE("crimson_robe", 15, new int[]{1, 3, 5, 2}, 28,
+    CRIMSON_ROBE("crimson_robe", 15, new int[]{1, 3, 5, 2}, 9,
     SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems()),
-    CRIMSON_PRAETOR("crimson_praetor", 15, new int[]{1, 3, 5, 2}, 28,
+    CRIMSON_PRAETOR("crimson_praetor", 15, new int[]{1, 3, 5, 2}, 9,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems()),
-    CRIMSON_PLATE("crimson_plate", 15, new int[]{2, 5, 6, 2}, 28,
+    CRIMSON_PLATE("crimson_plate", 15, new int[]{2, 5, 6, 2}, 9,
+    SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems()),
+    GOGGLES("goggles", 15, new int[]{2, 2, 2, 2}, 9,
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems()),
+    ICHORCLOTH("ichorcloth", 15, new int[]{5, 8, 6, 4}, 20,
     SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems());
 
 
