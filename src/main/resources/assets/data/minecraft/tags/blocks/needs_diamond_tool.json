@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "qi:uranium_ore",
-    "qi:uranium_block",
-    "qi:deepslate_uranium_ore",
-    "qi:raw_uranium_block"
-  ]
-}

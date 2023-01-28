@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "thaumcraft:thaumonomicon_cheat"
+    },
+    "title": {
+      "translate": "advancements.journey.root.title"
+    },
+    "description": {
+      "translate": "advancements.journey.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "thaumcraft:textures/gui/thaumonomicon/researchback.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

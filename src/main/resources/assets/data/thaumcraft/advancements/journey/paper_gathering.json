@@ -1,0 +1,37 @@
+{
+  "parent": "thaumcraft:journey/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": {
+      "translate": "advancements.journey.paper_gathering.title"
+    },
+    "description": {
+      "translate": "advancements.journey.paper_gathering.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "complete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "complete"
+    ]
+  ]
+}

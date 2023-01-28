@@ -6,13 +6,14 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Lazy;
-import net.r0nin_yt.thaumcraft.common.item.TCItems;
 
 import java.util.function.Supplier;
 
+import static net.r0nin_yt.thaumcraft.common.init.item.TCItemsRegistry.INFUSED_STABILISED_THAUMIUM_INGOT;
+
 public enum TCArmorMaterials implements ArmorMaterial {
     THAUMIUM("thaumium", 15, new int[]{2, 5, 6, 2}, 9,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(TCItems.INFUSED_STABILISED_THAUMIUM_INGOT)),
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(INFUSED_STABILISED_THAUMIUM_INGOT.getItem())),
     CRIMSON_ROBE("crimson_robe", 15, new int[]{1, 3, 5, 2}, 9,
     SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems()),
     CRIMSON_PRAETOR("crimson_praetor", 15, new int[]{1, 3, 5, 2}, 9,

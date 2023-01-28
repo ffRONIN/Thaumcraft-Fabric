@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "thaumcraft:items/verdant_charm",        
-        "layer1": "thaumcraft:items/verdant_charm_over_2"
-    }
-}

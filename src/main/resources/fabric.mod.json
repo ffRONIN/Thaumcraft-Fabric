@@ -3,23 +3,26 @@
   "id": "thaumcraft",
   "version": "${version}",
 
-  "name": "Thaumcraft",
-  "description": "Thaumcraft 7",
+  "name": "Thaumcraft 7",
+  "description": "It id remake of thaumcraft mod All license rights on Azanor.",
   "authors": [
     "R0NIN_YT"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/ffRONIN"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/thaumcraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.r0nin_yt.thaumcraft.Thaumcraft"
+    ],
+    "client": [
+      "net.r0nin_yt.thaumcraft.ThaumcraftClient"
     ]
   },
   "mixins": [

@@ -1,0 +1,41 @@
+{
+  "parent": "thaumcraft:journey/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "translate": "advancements.journey.scribing_tools.title"
+    },
+    "description": {
+      "translate": "advancements.journey.scribing_tools.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+
+    "complete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ink_sac",
+              "minecraft:glass_bottle",
+              "minecraft:feather"
+            ]
+          }
+        ]
+      }
+    }
+
+  },
+  "requirements": [
+    [
+      "complete"
+    ]
+  ]
+}
