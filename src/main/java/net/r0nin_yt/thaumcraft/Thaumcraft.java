@@ -24,10 +24,7 @@ public class Thaumcraft implements ModInitializer {
 
 	public static final RuntimeResourcePack RESOURCE_PACK = RuntimeResourcePack.create("thaumcraft:resources");
 
-	public static final ItemGroup MOD_GROUP = FabricItemGroupBuilder.build(
-			new Identifier(MODID, MODID),
-			() -> new ItemStack(THAUMONOMICON.getItem())
-	);
+	public static final ItemGroup MOD_GROUP = FabricItemGroupBuilder.build(new Identifier(MODID, MODID), () -> new ItemStack(THAUMONOMICON.getItem()));
 
 
 
