@@ -19,8 +19,6 @@
   "item.thaumcraft.thaumonomicon_cheat": "§6Таумономикон (чит-версия)",
   "item.thaumcraft.crimson_rites": "§6Кровавые ритуалы",
 
-  "item.thaumcraft.nitor": "Нитор",
-  "item.thaumcraft.alumentum": "Алюментум",
   "item.thaumcraft.primal_charm": "Сингулярный амулет",
 
   "item.thaumcraft.shard_air": "Кристалл воздуха",
@@ -30,6 +28,7 @@
   "item.thaumcraft.shard_order": "Кристалл порядка",
   "item.thaumcraft.shard_entropy": "Кристалл энтропии",
   "item.thaumcraft.shard_balanced": "Сбалансированный кристалл",
+  "item.thaumcraft.shard_wrath": "Кристалл гнева",
 
   "item.thaumcraft.amber": "Янтарь",
   "item.thaumcraft.ingot_thaumium": "Слиток таум-металла",
@@ -48,6 +47,9 @@
   "item.thaumcraft.taint_slime": "Зараженная слизь",
   "item.thaumcraft.taint_tendril": "Зараженное щупальце",
   "item.thaumcraft.salis_mundus": "Salis Mundus",
+
+  "item.thaumcraft.nitor": "Нитор",
+  "item.thaumcraft.alumentum": "Алюментум",
 
   "item.thaumcraft.cap_copper": "Медный наконечник",
   "item.thaumcraft.cap_gold": "Золотой наконечник",
