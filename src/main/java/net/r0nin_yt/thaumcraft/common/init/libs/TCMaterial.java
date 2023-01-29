@@ -63,6 +63,7 @@ public enum TCMaterial implements ToolMaterial {
         return this.enchantability;
     }
 
+
     public Ingredient getRepairIngredient() {
         return this.repairIngredient;
     }

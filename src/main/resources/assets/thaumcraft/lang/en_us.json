@@ -18,6 +18,7 @@
   "item.thaumcraft.thaumonomicon": "§6Thaumonomicon",
   "item.thaumcraft.thaumonomicon_cheat": "§6Thaumonomicon (cheat version)",
   "item.thaumcraft.crimson_rites": "§6Crimson Rites",
+
   "item.thaumcraft.primal_charm": "Primal Charm",
 
   "item.thaumcraft.shard_air": "Air Shard",
@@ -46,7 +47,6 @@
   "item.thaumcraft.taint_slime": "Taint Slime",
   "item.thaumcraft.taint_tendril": "Taint Tendril",
   "item.thaumcraft.salis_mundus": "Salis Mundus",
-
 
   "item.thaumcraft.nitor": "Nitor",
   "item.thaumcraft.alumentum": "Alumentum",
@@ -96,8 +96,6 @@
   "item.thaumcraft.label": "Label",
   "item.thaumcraft.bottle_taint": "Bottled Taint",
   "item.thaumcraft.coin": "Coin",
-
-
 
   "block.thaumcraft.arcane_workbench": "Arcane Workbench",
   "block.thaumcraft.deconstruction_table": "Deconstruction Table",

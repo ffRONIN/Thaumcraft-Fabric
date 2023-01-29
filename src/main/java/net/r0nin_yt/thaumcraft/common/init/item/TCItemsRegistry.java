@@ -73,13 +73,15 @@ public class TCItemsRegistry {
     public static final TCItem TAINT_SLIME = new SimpleItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "taint_slime");
     public static final TCItem TAINT_TENDRIL = new SimpleItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "taint_tendril");
     //shards
-    public static final TCItem AIR_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_air");
-    public static final TCItem FIRE_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_fire");;
-    public static final TCItem WATER_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_water");
-    public static final TCItem EARTH_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_earth");
-    public static final TCItem ORDER_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_order");
-    public static final TCItem ENTROPY_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_entropy");
+    public static final TCItem AIR_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_air", 0xffff7e);
+    public static final TCItem FIRE_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_fire", 0xff3c01);;
+    public static final TCItem WATER_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_water", 0x0090ff);
+    public static final TCItem EARTH_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_earth",0x00a000);
+    public static final TCItem ORDER_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_order", 0xeeccff);
+    public static final TCItem ENTROPY_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_entropy", 0x555577);
     public static final TCItem BALANCED_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_balanced");
+    public static final TCItem ENDER_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_ender");
+    public static final TCItem NETHER_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_nether");
     public static final TCItem WRATH_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_wrath");
     public static final TCItem ENVY_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_envy");
     public static final TCItem TAINT_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_taint");
@@ -88,7 +90,7 @@ public class TCItemsRegistry {
     public static final TCItem LUST_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_lust");
     public static final TCItem SLOTH_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_sloth");
     public static final TCItem GLUTTONY_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_gluttony");
-    public static final TCItem WARPED_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_warped");
+  //  public static final TCItem WARPED_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_warped");
     public static final TCItem WARPED_UNBALANCED_SHARD = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_warped_unbalanced");
     public static final TCItem SHARD_OF_CREATION = new ShardItem(new Item(new FabricItemSettings().group(Thaumcraft.MOD_GROUP)), "shard_of_creation");
     //world materials
@@ -209,13 +211,14 @@ public class TCItemsRegistry {
         BALANCED_SHARD.load();
         WRATH_SHARD.load();
         ENVY_SHARD.load();
-        TAINT_SHARD.load();
+        NETHER_SHARD.load();
         TAINTED_UNBALANCED_SHARD.load();
         PRIDE_SHARD.load();
         LUST_SHARD.load();
+        TAINT_SHARD.load();
         SLOTH_SHARD.load();
         GLUTTONY_SHARD.load();
-        WARPED_SHARD.load();
+        ENDER_SHARD.load();
         WARPED_UNBALANCED_SHARD.load();
         SHARD_OF_CREATION.load();
 

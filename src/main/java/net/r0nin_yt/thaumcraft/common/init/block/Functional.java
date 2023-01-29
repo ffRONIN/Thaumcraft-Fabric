@@ -11,32 +11,9 @@ import net.minecraft.block.Blocks;
 
 public class Functional {
 
-    public static final Block TABLE = Rotatable.register(
-            "table",
-            new Table(
-                    FabricBlockSettings
-                    .copyOf(Blocks.CRAFTING_TABLE)
-                    .nonOpaque()
-            )
-    );
-
-    public static final Block ARCANE_WORKBENCH = Rotatable.register(
-            "arcane_workbench",
-            new ArcaneWorkbench(
-                    FabricBlockSettings
-                    .copyOf(Blocks.CRAFTING_TABLE)
-                    .nonOpaque()
-            )
-    );
-
-    public static final Block DECONSTRUCTION_TABLE = Rotatable.register(
-            "deconstruction_table",
-            new DeconstructionTable(
-                    FabricBlockSettings
-                    .copyOf(Blocks.CRAFTING_TABLE)
-                    .nonOpaque()
-            )
-    );
+    public static final Block TABLE = Rotatable.register("table", new Table(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE).nonOpaque()));
+    public static final Block ARCANE_WORKBENCH = Rotatable.register("arcane_workbench", new ArcaneWorkbench(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE).nonOpaque()));
+    public static final Block DECONSTRUCTION_TABLE = Rotatable.register("deconstruction_table", new DeconstructionTable(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE).nonOpaque()));
 
 
 
